@@ -1,18 +1,25 @@
-#include <unistd.h>
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
- * Description: prints lowercase alphabets in reverse
+ * Description: prints numbers
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	int a;
+	int i;
 
-	for (a = 'z'; a >= 'a'; a--)
+	for (i = '0'; i <= '9' ; i++)
 	{
-		putchar(a);
+		putchar(i);
+
+		if (i != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
+
 	putchar('\n');
 	return (0);
 }
