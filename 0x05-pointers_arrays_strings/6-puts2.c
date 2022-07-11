@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * puts2 - prints xters of a string
@@ -19,4 +19,4 @@ void puts2(char *str)
 		i++;
 	}
 	_putchar('\n');
-}
+} 
