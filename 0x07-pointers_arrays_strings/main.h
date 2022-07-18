@@ -3,7 +3,7 @@
 
 /**
  * File: main.h
- * Auth: Markberyl
+ * Auth: Beryl
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x07-pointers_arrays_strings directory.
  */
