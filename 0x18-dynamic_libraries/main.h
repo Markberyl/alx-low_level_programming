@@ -30,4 +30,8 @@ int mul(int a, int b);
 int mod(int a, int b);
 extern div_t div(int __numer, int __denom);
 
+<<<<<<< HEAD
 #endif /* MAIN_H */
+=======
+#endif /* MAIN_H */
+>>>>>>> 3ec873a5c226392a37876275c9d4ed43dc182bb0
